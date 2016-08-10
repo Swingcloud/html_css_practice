@@ -1,2 +1,65 @@
+img {
+	display: block; 
+}
+
+.container	{
+	width: 1180px;
+	margin: 0 auto;
+	
+}
+
+.clearfix	{
+	clear: both;
+}
+
+#logo{
+	float: left;
+}
+#nav {
+	float: right;
+}
+
+#nav ul{
+	list-style-type: none;
+	margin: 0px; /*取消原本瀏覽器設定的margin*/
+    line-height: 40px; /*讓導覽列上下置中*/
+}
+
+#nav li {
+	float: left;
+	
+}
+
+#nav a {
+	padding: 0px 24px; /*隔出間隔*/
+	color: #fff; /*白色*/
+	text-decoration: none; /*消掉預設黑點*/
+	text-transform: capitalize; /*第一個字母大寫*/
+}
+
+.feature{
+	width: 33.33%;
+	float: left;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; /*將content box改成border box*/
+}
+
+.feature .title  > img, .feature .title > h3 {
+	float: left;
+}
+
+.feature .title h3 {
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 45px;
+}
+
+.feature .title img {
+	margin-right: 20px;
+}
+
 
 
