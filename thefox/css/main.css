@@ -12,6 +12,12 @@ img {
 	clear: both;
 }
 
+#header {
+	position: fixed;  
+	width: 100%; /*將header撐開到一個畫面寬*/
+
+}
+
 #logo{
 	float: left;
 }
@@ -36,6 +42,47 @@ img {
 	text-decoration: none; /*消掉預設藍色以及底線*/
 	text-transform: capitalize; /*第一個字母大寫*/
 }
+
+#banner {
+	background-color: #999ac6; /*設定banner背景顏色*/
+	height: 100vh; /*佔滿整個螢幕*/
+}
+
+.banner-container{
+	position: relative; /*可調整位置*/
+	top:50%;
+	background-color: rgba(0,0,0,.3);
+}
+
+.banner-container .clearfix {
+	float: none; /*將float清掉*/
+}
+
+.banner-container >div { /*banner-container底下的所有div全部float left*/
+	float: left;
+}
+
+.banner-container .title{
+	background-color: rgba(0,0,0, .3);
+	text-align: center;
+}
+.banner-container img { /*跟隨父元素的寬度*/
+	width: 100%;
+	height: auto; /*保持原本圖片比例*/
+}
+
+#banner .left, #banner .right {
+	width: 30%;
+}
+
+#banner .title {
+	width: 40%;
+}
+
+#banner .right{
+	text-align: right;
+}
+
 
 .feature{
 	width: 33.33%;
