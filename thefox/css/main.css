@@ -33,7 +33,7 @@ img {
 #nav a {
 	padding: 0px 24px; /*隔出間隔*/
 	color: #fff; /*白色*/
-	text-decoration: none; /*消掉預設黑點*/
+	text-decoration: none; /*消掉預設藍色以及底線*/
 	text-transform: capitalize; /*第一個字母大寫*/
 }
 
